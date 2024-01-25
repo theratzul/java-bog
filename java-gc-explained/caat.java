@@ -8,7 +8,9 @@ public class caat {
     public static void doCatStuff () {
         Cat myCat = new Cat();
         myCat.meow();
-        myCat = null;
+        myCat = null; // delete object
+        // yougGen cleaned faster
+        // OldGen cleaned less
     }
 
 }
